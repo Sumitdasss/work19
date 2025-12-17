@@ -5,6 +5,8 @@
     --color-tertiary: #5B5F77;
     --color-quaternary: #52C5B6;
     --color-Bg: #FAFAFA;
+    --color-Bg1: #C4C4C4;
+    --color-Bg2: #30344E;
 
 }
 @layer components {

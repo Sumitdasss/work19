@@ -7,3 +7,23 @@ $('.slider').slick({
   prevArrow: '<button type="button" class="absolute top-[423px] left-[600px]  z-10 w-10 h-10 bg-amber-700 text-white rounded-full hover:bg-white border-2 border-amber-700 transition-all hover:text-black"><i class="fa-solid fa-arrow-left"></i></button>',
   nextArrow: '<button type="button" class="absolute top-[423px] left-[896px]  z-10 w-10 h-10 bg-amber-700 text-white rounded-full hover:bg-white border-2 border-amber-700 transition-all hover:text-black"><i class="fa-solid fa-arrow-right"></i></button>',
 });
+
+$(function () {
+    $("#slideUpDown").click(function (){
+       $(".div26").slideToggle(500);
+    })
+     
+    $("#slideUpDown1").click(function (){
+       $(".div27").slideToggle(500);
+    })
+    $("#slideUpDown2").click(function (){
+       $(".div28").slideToggle(500);
+    })
+    $("#slideUpDown3").click(function (){
+       $(".div29").slideToggle(500);
+    })
+  
+
+   
+    
+})
