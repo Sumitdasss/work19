@@ -296,9 +296,6 @@
   .mt-\[15px\] {
     margin-top: 15px;
   }
-  .mt-\[20px\] {
-    margin-top: 20px;
-  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -344,26 +341,20 @@
   .ml-\[13px\] {
     margin-left: 13px;
   }
+  .ml-\[15px\] {
+    margin-left: 15px;
+  }
   .ml-\[20px\] {
     margin-left: 20px;
   }
-  .ml-\[30px\] {
-    margin-left: 30px;
-  }
   .ml-\[37px\] {
     margin-left: 37px;
-  }
-  .ml-\[40px\] {
-    margin-left: 40px;
   }
   .ml-\[80px\] {
     margin-left: 80px;
   }
   .ml-\[110px\] {
     margin-left: 110px;
-  }
-  .ml-\[153px\] {
-    margin-left: 153px;
   }
   .ml-\[170px\] {
     margin-left: 170px;
@@ -373,9 +364,6 @@
   }
   .ml-\[350px\] {
     margin-left: 350px;
-  }
-  .ml-\[553px\] {
-    margin-left: 553px;
   }
   .ml-\[655px\] {
     margin-left: 655px;
@@ -388,12 +376,6 @@
   }
   .ml-\[880px\] {
     margin-left: 880px;
-  }
-  .ml-\[953px\] {
-    margin-left: 953px;
-  }
-  .ml-\[1353px\] {
-    margin-left: 1353px;
   }
   .block {
     display: block;
@@ -481,15 +463,6 @@
   }
   .w-\[411px\] {
     width: 411px;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .rotate-90 {
-    rotate: 90deg;
-  }
-  .rotate-270 {
-    rotate: 270deg;
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
@@ -741,18 +714,11 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .opacity-15 {
     opacity: 15%;
   }
   .opacity-50 {
     opacity: 50%;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .blur {
     --tw-blur: blur(8px);
@@ -952,11 +918,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-blur {
   syntax: "*";
   inherits: false;
@@ -1030,7 +991,6 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
