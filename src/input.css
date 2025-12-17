@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@theme{
+    --color-primary: #30344E;
+    --color-secondary: #52C5B6;
+    --color-tertiary: #5B5F77;
+    --color-quaternary: #52C5B6;
+    --color-Bg: #FAFAFA;
+
+}
+@layer components {
+  
+  .slick-dots {
+    @apply flex justify-center items-center gap-4 mt-15 list-none;
+  }
+
+  .slick-dots li button {
+    @apply w-3 h-3 bg-amber-700 rounded-full text-transparent overflow-hidden transition-all;
+    content: '';
+  }
+
+  
+  .slick-dots li.slick-active {
+    @apply border-2 border-orange-500 rounded-full p-2 flex items-center justify-center;
+  }
+
+  
+  .slick-dots li.slick-active button {
+    @apply bg-orange-500 w-3 h-3;
+  }
+}
