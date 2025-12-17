@@ -486,6 +486,15 @@
   .pt-\[35px\] {
     padding-top: 35px;
   }
+  .pt-\[40px\] {
+    padding-top: 40px;
+  }
+  .pt-\[50px\] {
+    padding-top: 50px;
+  }
+  .pt-\[53px\] {
+    padding-top: 53px;
+  }
   .pt-\[170px\] {
     padding-top: 170px;
   }
@@ -503,6 +512,15 @@
   }
   .pr-\[1050px\] {
     padding-right: 1050px;
+  }
+  .pb-\[25px\] {
+    padding-bottom: 25px;
+  }
+  .pb-\[30px\] {
+    padding-bottom: 30px;
+  }
+  .pb-\[34px\] {
+    padding-bottom: 34px;
   }
   .pl-\[10px\] {
     padding-left: 10px;
